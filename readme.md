@@ -14,4 +14,4 @@ creates new bundle.js in dist folder
 
 KNOWN ISSUES / TODOs:
 
-- css changes in subfolders are ignored
+- does each subfolder in dist folder need to be added to contentBase? how to avoid this?
