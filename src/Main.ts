@@ -5,6 +5,6 @@ export class Main{
     }
 
     private init():void{
-        console.log("init main 900");
+        console.log("init main 90000000");
     }
 }

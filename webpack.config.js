@@ -4,6 +4,14 @@ module.exports = {
   mode: 'development',
   entry: './src/index.ts',
   devtool: 'inline-source-map',
+  devServer: {
+    contentBase: path.join(__dirname, 'dist'),
+    compress: true,
+    port: 8080,
+    hot: true,
+    watchContentBase: true,
+    compress: true
+  },
   watch: true,
   module: {
     rules: [

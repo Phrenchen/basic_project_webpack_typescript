@@ -1,10 +1,5 @@
-// (re)compile onChange
-npm run build
+npm run start
 
-npm run serve
-to
-start http server 
-- observes typescript changes only
-- html & css file changes need manual page refreshing. not optimal...
-
-http://localhost:8080/webpack-dev-server/dist/index.html
+- serves dist/index.html at localhost:8080
+- observes changes to
+    - ts, html, css files
