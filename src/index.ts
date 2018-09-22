@@ -1,3 +1,5 @@
-import { Main } from "./Main";
+function main():void{
+    console.log("app started");
+}
 
-const main = new Main();    
+main();
