@@ -5,10 +5,13 @@ module.exports = {
   entry: './src/index.ts',
   devtool: 'inline-source-map',
   devServer: {
-    contentBase: path.join(__dirname, 'dist'),
     compress: true,
     port: 8080,
     hot: false,
+    contentBase: [
+      path.join(__dirname, 'dist'),
+      path.join(__dirname, 'dist/styles'),
+    ],
     watchContentBase: true,
     compress: true
   },
